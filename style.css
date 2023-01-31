@@ -1,0 +1,113 @@
+/* CSS Reset--------------------------------------------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Set the background image------------------------------------------*/
+
+body, html {
+	height: 100%; /*help background image positioning*/
+}
+
+.background { 
+    background-image: url("images/background.jpg");
+	
+	height: 100%; 
+
+	background-position: center-left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*div sizing and positioning----------------------------------------*/
+
+.container { /*main container*/
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5); /*color and transparence*/
+	height: 87.7%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 1.5%;
+	border-radius: 25px;
+}
+
+.logo{ /*lim logo*/
+	margin: auto;
+	width: 22%;
+	margin-top: 8.5%;
+}
+
+.main-title{ /*main title*/
+	text-align: center;
+	width: 100%;
+}
+
+.header{ /*button div*/
+	margin: auto;
+	width: 80%;
+	padding: 10px 0 10px 0;
+	text-align: center; /*center the buttons*/
+	background-color: #08dc04;
+}
+
+.box{ /*contains all the information of all scooters*/
+	width: 80%;
+	margin: auto;
+}
+
+.info-box{ /*contains all the information of a single scooter*/
+	margin-top: 25px;
+}
+
+/*color and font text---------------------------------------------*/
+
+h1{
+	color: #08dc04;
+	font-family: 'Livvic', sans-serif, bold;
+}
+
+h2{
+	color: white;
+	font-family: 'Livvic', sans-serif, bold;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+}
+
+/*set scooter battery percentages----------------------------------*/
+
+.carica1{
+	height: 30px;
+	width: 40%;
+	background-color: #f5b453;
+	border-radius: 5px;
+}
+
+.carica2{
+	height: 30px;
+	width: 62%;
+	background-color: #1ec31e;
+	border-radius: 5px;
+}
+
+.carica3{
+	height: 30px;
+	width: 15%;
+	background-color: #be4141;
+	border-radius: 5px;
+}
+
+/*other------------------------------------------------------------*/
+
+img{
+	width: 100%; /*adapt to the div*/
+}
+
+input{
+	padding: 0 4px 0 4px;
+}
